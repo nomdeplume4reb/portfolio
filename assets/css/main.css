@@ -2962,6 +2962,10 @@ input, select, textarea {
 
 		}
 
+		#profile-image {
+			max-width: 22%;
+		}
+
 /* Menu */
 
 	#wrapper {
