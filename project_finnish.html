@@ -36,16 +36,22 @@
 							<h1>Finnish Fill-In-The-Blank</h1>
 							<span class="image main"><img src="images/finnish-full.jpg" alt="" /></span>
 							<h3>Work in Progress</h3>
-							<p id="sentence"></p>
+
+							<p id="sentence0"></p>
 							<p id="alert-btn" class="button">Generate</p>
-					    <script type="text/python" id="script0">
+							<script type="text/python" id="script0">
 					        from browser import document, console
 
 					        def show(e):
-					            document['sentence'] <= 'Sentence generated!'
+					            document['sentence0'] <= 'Placeholder Sentence generated!'
 
 					        document['alert-btn'].bind('click', show)
 					    </script>
+
+							<p>This project uses Python libraries nltk, libvoikko, and BeautifulSoup for tokenizing sentences, lemmatizing Finnish words, and scraping Wiktionary.org for cases. It also uses Brython for web interactivity</p>
+							<p>
+								<a href="https://github.com/nomdeplume4reb/finnish-app/blob/main/Finnish-quiz.ipynb" target="_blank" class="button">View Notebook</a>
+							</p>
 						</div>
 					</div>
 
